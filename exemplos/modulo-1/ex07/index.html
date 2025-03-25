@@ -6,7 +6,7 @@
         <title>Imagens Dinâmicas</title>
     </head>
     <body>
-        <h1>Imagens Dinâmicas</h1>
+        <h1>Mídias em HTML5</h1>
         <p>Tente abrir essa página em diferentes dispositivos móveis ou altere o tamanho do
             navegador.</p>
         <picture>
@@ -15,5 +15,17 @@
             <source srcset="imgs/foto-m.png" type="image/png" media="(max-width: 1050px)">
             <img src="imgs/foto-g.png" alt="Imagem flexível"/>
         </picture>
+        <h1>Reproduzindo Áudio</h1>
+        <p>Ouça abaixo um episódio do guanacast, o podcast do Gustavo Guanabara.</p>
+        <audio src="media/guanacast.mp3" controls autoplay></audio>
+        <p>É possível carregarmos diferentes tipos de áudio: MP3, OGG e WAV.</p>
+        <audio preload="metadata" controls autoplay>
+            <source src="media/guanacast.mp3" type="audio/mpeg">
+            <source src="media/guanacast.ogg" type="audio/OGG">
+            <source src="media/guanacast.wav" type="audio/WAV">
+            <p>Infelizmente, seu navegador não consegue reproduzir áudio.<a
+                    href="media/guanacast.mp3" target="_blank">Clique aqui para baixar o arquivo
+                MP3.</a></p>
+        </audio>
     </body>
 </html>
