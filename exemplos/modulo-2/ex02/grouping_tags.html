@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grouping_tags</title>
+    <!-- Tags semânticas de agrupamento -->
+    <style type="text/css" media="screen">
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+      }
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+      nav {
+        background-color: lightblue;
+        padding: 3px;
+      }
+      nav > a {
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+      }
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+      article {
+        background-color: lightgray;
+        padding: 5px;
+      }
+      article > aside {
+        background-color: gray;
+      }
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Laboratório Sismológico</h1>
+      <nav>
+        <a href="http://www.url.com" target="_blank">Link</a>
+        <a href="http://www.url.com" target="_blank">Link</a>
+        <a href="http://www.url.com" target="_blank">Link</a>
+        <a href="http://www.url.com" target="_blank">Link</a>
+        <a href="http://www.url.com" target="_blank">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <section id="noticias">
+        <article>
+          <h2>Notícia sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet.
+          </p>
+          <aside>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet.
+            </p>
+            <p>Artigo escrito por João Verdureiro</p>
+          </aside>
+        </article>
+        <article>article content</article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido pelo LabSis/UFRN</p>
+    </footer>
+  </body>
+</html>
