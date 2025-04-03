@@ -1,0 +1,27 @@
+@charset "utf-8";
+:root{
+    --cor0: #c5edb6;
+}
+header > h1{
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, white, black);
+}
+body {
+    background-color: #c5edb6;
+}
+p {
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p > a:after{
+}
+ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
