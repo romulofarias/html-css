@@ -1,4 +1,4 @@
 /** @type {import('stylelint').Config} */
 export default {
-  extends: ["stylelint-config-standard"]
+  extends: ["/home/romulo/node_modules/stylelint-config-standard"]
 };
