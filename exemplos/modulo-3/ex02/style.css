@@ -17,20 +17,25 @@ td, th {
   vertical-align: middle;
 }
 
-thead, tfoot {
-  background-color: black;
-  color: white;
-}
-
 thead > tr > th{
   position: sticky;
   top: -1px;
   background-color: black;
 }
 
+td[rowspan], tr:hover td{
+  background-color: cyan;
+}
+
 tbody > tr:nth-child(even){
   background-color: lightgray;
 }
+
+thead, tfoot {
+  background-color: black;
+  color: white;
+}
+
 
 caption{
   font-size:  1.5em;
