@@ -40,3 +40,22 @@
    width: 269px;
    height: 471px;
  }
+
+ section#rede-social {
+   text-align: right;
+ }
+
+ section#rede-social img {
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 2px 2px 5px rgb(0 0 0 / 40%);
+   box-sizing: border-box;
+ }
+
+ section#rede-social img:hover{
+   border: 2px solid rgb(255 255 255 / 63.7%);
+   transform: translate(-3px, -3px);
+   box-shadow: 5px 5px 10px rgb(0 0 0 / 62.3%);
+   transition: transform .3s, border .2s;
+ }
