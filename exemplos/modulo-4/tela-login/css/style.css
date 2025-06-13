@@ -5,3 +5,63 @@
  * Verde: #49a09d
  * Lilás: #5f2c82
  */
+:root {
+  --cor0: #49a09d;
+  --cor1: #5f2c82;
+}
+
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: var(--cor1);
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+section#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-color: #fff;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 45%);
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+  display: block;
+  background: var(--cor1) url("../imagens/metal.jpg") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  height: 200px;
+}
+
+section#login > div#formulario {
+  display: block;
+  padding: 10px;
+}
+
+div#formulario > h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div#formulario > p {
+  font-size: 0.8em;
+}
