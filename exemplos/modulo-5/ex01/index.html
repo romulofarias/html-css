@@ -1,13 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Primeiro Exemplo</title>
-    </head>
-    <body>
-        <h1>Olá, Mundo!</h1>
-        <hr>
-        <p>Esta é a primeira página HTML do processo de aprendizado.</p>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flexible Box</title>
+    <style type="text/css" media="screen">
+      div.conteiner {
+        display: flex;
+        background-color: lightcyan;
+      }
+      div.item {
+        flex: auto;
+        background-color: lightgrey;
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item">F</div>
+      <div class="item">G</div>
+    </div>
+  </body>
 </html>
